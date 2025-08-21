@@ -50,11 +50,12 @@ sia = SentimentIntensityAnalyzer()
 
 # ---------- Theme ----------
 st.set_page_config(page_title="Forex Pro — Click Tools", layout="wide")
+
 # --- Logo Section ---
 from PIL import Image
-logo_path = os.path.join(os.path.dirname(__ChatGpt Image Aug 21,2025,04_33_13 PM.png__), "logo.png")
-if os.path.exists(logo_path):
-    st.image(logo_path, width=250)  # Show logo at top
+logo_path = os.path.join(os.path.dirname(ChatGpt Image Aug 21,2025,04_33_13 PM.png), "logo.png")
+if os.path.exists(ChatGpt Image Aug 21,2025,04_33_13 PM.png):
+    st.image(ChatGpt Image Aug 21,2025,04_33_13 PM.png, width=250)  # Show logo at top
 
 st.markdown("""
 <style>
