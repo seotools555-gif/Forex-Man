@@ -50,6 +50,12 @@ sia = SentimentIntensityAnalyzer()
 
 # ---------- Theme ----------
 st.set_page_config(page_title="Forex Pro — Click Tools", layout="wide")
+# --- Logo Section ---
+from PIL import Image
+logo_path = os.path.join(os.path.dirname(__ChatGpt Image Aug 21,2025,04_33_13 PM.png__), "logo.png")
+if os.path.exists(logo_path):
+    st.image(logo_path, width=250)  # Show logo at top
+
 st.markdown("""
 <style>
 .card{background:linear-gradient(180deg,#0d1b2a,#0b2338);padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.05);box-shadow:0 6px 18px rgba(0,0,0,.45)}
